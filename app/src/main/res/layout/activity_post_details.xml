@@ -210,7 +210,7 @@
             android:minWidth="0dp"
             android:paddingLeft="@dimen/large_intrinsic_padding"
             android:paddingRight="@dimen/large_intrinsic_padding"
-            android:text="@string/send_comment_button_label"
+            android:text="Comment"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

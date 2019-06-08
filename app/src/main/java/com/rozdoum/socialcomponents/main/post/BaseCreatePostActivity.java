@@ -46,23 +46,6 @@ public abstract class BaseCreatePostActivity<V extends BaseCreatePostView, P ext
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-
-        titleEditText = findViewById(R.id.titleEditText);
-        descriptionEditText = findViewById(R.id.descriptionEditText);
-        progressBar = findViewById(R.id.progressBar);
-
-        imageView = findViewById(R.id.imageView);
-
-        imageView.setOnClickListener(v -> onSelectImageClick(v));
-
-        titleEditText.setOnTouchListener((v, event) -> {
-            if (titleEditText.hasFocus() && titleEditText.getError() != null) {
-                titleEditText.setError(null);
-                return true;
-            }
-
-            return false;
-        });
     }
 
     @Override

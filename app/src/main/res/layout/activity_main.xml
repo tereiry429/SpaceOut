@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="false"
+    android:background="@drawable/thbckgrnd"
     tools:context=".main.main.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -70,9 +71,10 @@
         android:id="@+id/addNewPostFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
         android:layout_margin="@dimen/large_intrinsic_padding"
         android:clickable="true"
         android:src="@drawable/ic_add_white_48dp"
-        android:layout_gravity="bottom|right" />
+        />
 
 </android.support.design.widget.CoordinatorLayout>

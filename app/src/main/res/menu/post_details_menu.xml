@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/complain_action"
-        android:title="@string/add_complain"
+        android:title="Report"
         app:showAsAction="never"
         android:orderInCategory="1"
         android:visible="false"/>

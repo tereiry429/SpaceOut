@@ -22,7 +22,7 @@ const THUMB_SMALL_SIZE = 100; //px
 const THUMB_MEDIUM_DIR = "medium";
 const THUMB_SMALL_DIR = "small";
 
-const gcs = require('@google-cloud/storage')();
+const gcs = require('@google-cloud/storage');
 const path = require('path');
 const sharp = require('sharp');
 const os = require('os');

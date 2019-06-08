@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#0097D3</color>
-    <color name="primary_dark">#005B7F</color>
+    <color name="primary">#af15ad</color>
+    <color name="primary_dark">#8c088a</color>
     <color name="primary_light">#D7CCC8</color>
     <color name="dart_transparent">#81000000</color>
 
@@ -21,12 +21,12 @@
     <color name="white">#ffffff</color>
     <color name="posts_counter_bg">#df3e3e3e</color>
 
-    <color name="like_icon_activated">#FF5252</color>
-    <color name="icons_counter_color">#828181</color>
+    <color name="like_icon_activated">#ed234b</color>
+    <color name="icons_counter_color">#553a63</color>
     <color name="circle_image_shadow">#8b8b8b</color>
 
-    <color name="send_comment_button_activated">#0097d3</color>
-    <color name="send_comment_button_deactivated">#7fcbe9</color>
+    <color name="send_comment_button_activated">#360087</color>
+    <color name="send_comment_button_deactivated">#360087</color>
 
     <color name="facebook_button_color">#3b5999</color>
     <color name="facebook_button_color_pressed">#2f477a</color>
